@@ -1,0 +1,193 @@
+['getGreedyFullVisionMove', [(67, 133, 81827.0, 89895.0), (49, 151, 81582.0, 92992.0), (57, 143, 81837.0, 91556.0), (57, 143, 80768.0, 89056.0), (64, 136, 80949.0, 88370.0), (59, 141, 78517.0, 86339.0), (68, 132, 78690.0, 86619.0)]]
+['getBestAlgorithmCascadeMove', [(95, 105, 89126.0, 90356.0), (101, 99, 89813.0, 90729.0), (102, 98, 90695.0, 91061.0), (102, 98, 90524.0, 90699.0), (105, 95, 90425.0, 90007.0), (110, 90, 90047.0, 89654.0)]]
+['getBestAlgorithmCascadeMove2', [(101, 99, 91995.0, 91220.0), (104, 96, 91037.0, 91764.0), (107, 93, 91506.0, 91720.0), (113, 87, 91562.0, 89070.0), (120, 80, 92747.0, 90068.0)]]
+['getBestAlgorithmCascadeMove3', [(103, 97, 89588.0, 89381.0), (107, 93, 89598.0, 88699.0), (109, 91, 90991.0, 88931.0), (113, 87, 91657.0, 89362.0)]]
+['getBestAlgorithmCascadeMove4', [(111, 89, 89058.0, 88685.0), (118, 82, 90455.0, 88138.0), (114, 86, 90206.0, 87364.0)]]
+['getBestAlgorithmCascadeMove5', [(106, 94, 90017.0, 89321.0), (101, 99, 90097.0, 88436.0)]]
+['getBestAlgorithmCascadeMove8', [(109, 91, 88199.0, 87217.0)]]
+['getBestAlgorithmCascadeMove10', []]
+                                  1  2  3  4  5  6  7  8  total
+1        getGreedyFullVisionMove  X  0  0  0  0  0  0  0      0
+2    getBestAlgorithmCascadeMove  2  X  0  2  2  2  2  2     12
+3   getBestAlgorithmCascadeMove2  2  2  X  2  2  2  2  2     14
+4   getBestAlgorithmCascadeMove3  2  0  0  X  2  2  2  2     10
+5   getBestAlgorithmCascadeMove4  2  0  0  0  X  2  2  2      8
+6   getBestAlgorithmCascadeMove5  2  0  0  0  0  X  2  2      6
+7   getBestAlgorithmCascadeMove8  2  0  0  0  0  0  X  2      4
+8  getBestAlgorithmCascadeMove10  2  0  0  0  0  0  0  X      2
+-----------------------------------------------------------------------
+                                  1  2  3  4  5  6  7  8  total
+3   getBestAlgorithmCascadeMove2  2  2  X  2  2  2  2  2     14
+2    getBestAlgorithmCascadeMove  2  X  0  2  2  2  2  2     12
+4   getBestAlgorithmCascadeMove3  2  0  0  X  2  2  2  2     10
+5   getBestAlgorithmCascadeMove4  2  0  0  0  X  2  2  2      8
+6   getBestAlgorithmCascadeMove5  2  0  0  0  0  X  2  2      6
+7   getBestAlgorithmCascadeMove8  2  0  0  0  0  0  X  2      4
+8  getBestAlgorithmCascadeMove10  2  0  0  0  0  0  0  X      2
+1        getGreedyFullVisionMove  X  0  0  0  0  0  0  0      0
+
+=======================================================================
+
+                                    1    2   3    4    5    6    7    8  total
+1        getGreedyFullVisionMove    X   67  49   57   57   64   59   68    421
+2    getBestAlgorithmCascadeMove  133    X  95  101  102  102  105  110    748
+3   getBestAlgorithmCascadeMove2  151  105   X  101  104  107  113  120    801
+4   getBestAlgorithmCascadeMove3  143   99  99    X  103  107  109  113    773
+5   getBestAlgorithmCascadeMove4  143   98  96   97    X  111  118  114    777
+6   getBestAlgorithmCascadeMove5  136   98  93   93   89    X  106  101    716
+7   getBestAlgorithmCascadeMove8  141   95  87   91   82   94    X  109    699
+8  getBestAlgorithmCascadeMove10  132   90  80   87   86   99   91    X    665
+-----------------------------------------------------------------------
+                                    1    2   3    4    5    6    7    8  total
+3   getBestAlgorithmCascadeMove2  151  105   X  101  104  107  113  120    801
+5   getBestAlgorithmCascadeMove4  143   98  96   97    X  111  118  114    777
+4   getBestAlgorithmCascadeMove3  143   99  99    X  103  107  109  113    773
+2    getBestAlgorithmCascadeMove  133    X  95  101  102  102  105  110    748
+6   getBestAlgorithmCascadeMove5  136   98  93   93   89    X  106  101    716
+7   getBestAlgorithmCascadeMove8  141   95  87   91   82   94    X  109    699
+8  getBestAlgorithmCascadeMove10  132   90  80   87   86   99   91    X    665
+1        getGreedyFullVisionMove    X   67  49   57   57   64   59   68    421
+
+=======================================================================
+
+                                        1        2        3        4        5        6        7        8     total
+1        getGreedyFullVisionMove        X  81827.0  81582.0  81837.0  80768.0  80949.0  78517.0  78690.0  564170.0
+2    getBestAlgorithmCascadeMove  89895.0        X  89126.0  89813.0  90695.0  90524.0  90425.0  90047.0  630525.0
+3   getBestAlgorithmCascadeMove2  92992.0  90356.0        X  91995.0  91037.0  91506.0  91562.0  92747.0  642195.0
+4   getBestAlgorithmCascadeMove3  91556.0  90729.0  91220.0        X  89588.0  89598.0  90991.0  91657.0  635339.0
+5   getBestAlgorithmCascadeMove4  89056.0  91061.0  91764.0  89381.0        X  89058.0  90455.0  90206.0  630981.0
+6   getBestAlgorithmCascadeMove5  88370.0  90699.0  91720.0  88699.0  88685.0        X  90017.0  90097.0  628287.0
+7   getBestAlgorithmCascadeMove8  86339.0  90007.0  89070.0  88931.0  88138.0  89321.0        X  88199.0  620005.0
+8  getBestAlgorithmCascadeMove10  86619.0  89654.0  90068.0  89362.0  87364.0  88436.0  87217.0        X  618720.0
+-----------------------------------------------------------------------
+                                        1        2        3        4        5        6        7        8     total
+3   getBestAlgorithmCascadeMove2  92992.0  90356.0        X  91995.0  91037.0  91506.0  91562.0  92747.0  642195.0
+4   getBestAlgorithmCascadeMove3  91556.0  90729.0  91220.0        X  89588.0  89598.0  90991.0  91657.0  635339.0
+5   getBestAlgorithmCascadeMove4  89056.0  91061.0  91764.0  89381.0        X  89058.0  90455.0  90206.0  630981.0
+2    getBestAlgorithmCascadeMove  89895.0        X  89126.0  89813.0  90695.0  90524.0  90425.0  90047.0  630525.0
+6   getBestAlgorithmCascadeMove5  88370.0  90699.0  91720.0  88699.0  88685.0        X  90017.0  90097.0  628287.0
+7   getBestAlgorithmCascadeMove8  86339.0  90007.0  89070.0  88931.0  88138.0  89321.0        X  88199.0  620005.0
+8  getBestAlgorithmCascadeMove10  86619.0  89654.0  90068.0  89362.0  87364.0  88436.0  87217.0        X  618720.0
+1        getGreedyFullVisionMove        X  81827.0  81582.0  81837.0  80768.0  80949.0  78517.0  78690.0  564170.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+['getBestAlgorithmCascadeMove2', [(102, 98, 49269.0, 48375.0), (101, 99, 49352.0, 49515.0), (105, 95, 48949.0, 48688.0), (115, 85, 49198.0, 48452.0), (96, 104, 50792.0, 51327.0), (91, 109, 50332.0, 52556.0), (90, 110, 50463.0, 51614.0), (64, 136, 49505.0, 54149.0), (62, 138, 49672.0, 55025.0), (65, 135, 49670.0, 54010.0), (62, 138, 49672.0, 55025.0)]]
+['getBestAlgorithmCascadeMove', [(93, 107, 48412.0, 49542.0), (102, 98, 48222.0, 48717.0), (114, 86, 48510.0, 48430.0), (93, 107, 49481.0, 51114.0), (76, 124, 49001.0, 52727.0), (83, 117, 49051.0, 51653.0), (55, 145, 48484.0, 54496.0), (57, 143, 48898.0, 55431.0), (56, 144, 48547.0, 54342.0), (57, 143, 48898.0, 55431.0)]]
+['getBestAlgorithmCascadeMove3', [(105, 95, 49544.0, 49160.0), (116, 84, 49664.0, 48654.0), (96, 104, 50677.0, 51367.0), (82, 118, 49866.0, 52487.0), (86, 114, 50012.0, 51661.0), (54, 146, 49148.0, 54196.0), (55, 145, 49611.0, 54810.0), (58, 142, 49314.0, 54077.0), (55, 145, 49611.0, 54810.0)]]
+['getBestAlgorithmCascadeMove4', [(107, 93, 48948.0, 48425.0), (82, 118, 49713.0, 51661.0), (77, 123, 49335.0, 52450.0), (75, 125, 49327.0, 52179.0), (54, 146, 49049.0, 54057.0), (55, 145, 49663.0, 54698.0), (56, 144, 49125.0, 53803.0), (55, 145, 49663.0, 54698.0)]]
+['getBestAlgorithmCascadeMove5', [(80, 120, 49535.0, 51678.0), (75, 125, 49342.0, 52716.0), (76, 124, 49373.0, 52396.0), (53, 147, 49205.0, 54129.0), (55, 145, 49418.0, 54429.0), (55, 145, 49355.0, 54035.0), (55, 145, 49418.0, 54429.0)]]
+['getGreedyMoveFunction(10)', [(104, 96, 51447.0, 52389.0), (99, 101, 51988.0, 51709.0), (88, 112, 51226.0, 54035.0), (79, 121, 51145.0, 54497.0), (89, 111, 51163.0, 53873.0), (79, 121, 51145.0, 54497.0)]]
+['getGreedyMoveFunction(8)', [(102, 98, 52639.0, 52505.0), (88, 112, 52976.0, 54733.0), (80, 120, 52843.0, 54916.0), (92, 108, 53135.0, 54584.0), (80, 120, 52843.0, 54916.0)]]
+['getGreedyMoveFunction(9)', [(89, 111, 51806.0, 53908.0), (70, 130, 51338.0, 54453.0), (90, 110, 51840.0, 53847.0), (70, 130, 51338.0, 54453.0)]]
+['getGreedyMoveFunction(7)', [(96, 104, 54737.0, 55130.0), (105, 95, 54922.0, 54655.0), (96, 104, 54737.0, 55130.0)]]
+['getGreedyMoveFunction(6)', [(106, 94, 55195.0, 54505.0), (100, 100, 55186.0, 55186.0)]]
+['getGreedyCorrectMoveFunction(7)', [(94, 106, 54505.0, 55195.0)]]
+['getGreedyCorrectMoveFunction(6)', []]
+                                     1  2  3  4  5  6  7  8  9 10 11 12  total
+1      getBestAlgorithmCascadeMove2  X  2  2  2  2  0  0  0  0  0  0  0      8
+2       getBestAlgorithmCascadeMove  0  X  0  2  2  0  0  0  0  0  0  0      4
+3      getBestAlgorithmCascadeMove3  0  2  X  2  2  0  0  0  0  0  0  0      6
+4      getBestAlgorithmCascadeMove4  0  0  0  X  2  0  0  0  0  0  0  0      2
+5      getBestAlgorithmCascadeMove5  0  0  0  0  X  0  0  0  0  0  0  0      0
+6         getGreedyMoveFunction(10)  2  2  2  2  2  X  2  0  0  0  0  0     12
+7          getGreedyMoveFunction(8)  2  2  2  2  2  0  X  2  0  0  0  0     12
+8          getGreedyMoveFunction(9)  2  2  2  2  2  2  0  X  0  0  0  0     12
+9          getGreedyMoveFunction(7)  2  2  2  2  2  2  2  2  X  0  2  0     18
+10         getGreedyMoveFunction(6)  2  2  2  2  2  2  2  2  2  X  2  1     21
+11  getGreedyCorrectMoveFunction(7)  2  2  2  2  2  2  2  2  0  0  X  0     16
+12  getGreedyCorrectMoveFunction(6)  2  2  2  2  2  2  2  2  2  1  2  X     21
+-----------------------------------------------------------------------
+                                     1  2  3  4  5  6  7  8  9 10 11 12  total
+10         getGreedyMoveFunction(6)  2  2  2  2  2  2  2  2  2  X  2  1     21
+12  getGreedyCorrectMoveFunction(6)  2  2  2  2  2  2  2  2  2  1  2  X     21
+9          getGreedyMoveFunction(7)  2  2  2  2  2  2  2  2  X  0  2  0     18
+11  getGreedyCorrectMoveFunction(7)  2  2  2  2  2  2  2  2  0  0  X  0     16
+6         getGreedyMoveFunction(10)  2  2  2  2  2  X  2  0  0  0  0  0     12
+7          getGreedyMoveFunction(8)  2  2  2  2  2  0  X  2  0  0  0  0     12
+8          getGreedyMoveFunction(9)  2  2  2  2  2  2  0  X  0  0  0  0     12
+1      getBestAlgorithmCascadeMove2  X  2  2  2  2  0  0  0  0  0  0  0      8
+3      getBestAlgorithmCascadeMove3  0  2  X  2  2  0  0  0  0  0  0  0      6
+2       getBestAlgorithmCascadeMove  0  X  0  2  2  0  0  0  0  0  0  0      4
+4      getBestAlgorithmCascadeMove4  0  0  0  X  2  0  0  0  0  0  0  0      2
+5      getBestAlgorithmCascadeMove5  0  0  0  0  X  0  0  0  0  0  0  0      0
+
+=======================================================================
+
+                                       1    2    3    4    5    6    7    8    9   10   11   12  total
+1      getBestAlgorithmCascadeMove2    X  102  101  105  115   96   91   90   64   62   65   62    953
+2       getBestAlgorithmCascadeMove   98    X   93  102  114   93   76   83   55   57   56   57    884
+3      getBestAlgorithmCascadeMove3   99  107    X  105  116   96   82   86   54   55   58   55    913
+4      getBestAlgorithmCascadeMove4   95   98   95    X  107   82   77   75   54   55   56   55    849
+5      getBestAlgorithmCascadeMove5   85   86   84   93    X   80   75   76   53   55   55   55    797
+6         getGreedyMoveFunction(10)  104  107  104  118  120    X  104   99   88   79   89   79   1091
+7          getGreedyMoveFunction(8)  109  124  118  123  125   96    X  102   88   80   92   80   1137
+8          getGreedyMoveFunction(9)  110  117  114  125  124  101   98    X   89   70   90   70   1108
+9          getGreedyMoveFunction(7)  136  145  146  146  147  112  112  111    X   96  105   96   1352
+10         getGreedyMoveFunction(6)  138  143  145  145  145  121  120  130  104    X  106  100   1397
+11  getGreedyCorrectMoveFunction(7)  135  144  142  144  145  111  108  110   95   94    X   94   1322
+12  getGreedyCorrectMoveFunction(6)  138  143  145  145  145  121  120  130  104  100  106    X   1397
+-----------------------------------------------------------------------
+                                       1    2    3    4    5    6    7    8    9   10   11   12  total
+10         getGreedyMoveFunction(6)  138  143  145  145  145  121  120  130  104    X  106  100   1397
+12  getGreedyCorrectMoveFunction(6)  138  143  145  145  145  121  120  130  104  100  106    X   1397
+9          getGreedyMoveFunction(7)  136  145  146  146  147  112  112  111    X   96  105   96   1352
+11  getGreedyCorrectMoveFunction(7)  135  144  142  144  145  111  108  110   95   94    X   94   1322
+7          getGreedyMoveFunction(8)  109  124  118  123  125   96    X  102   88   80   92   80   1137
+8          getGreedyMoveFunction(9)  110  117  114  125  124  101   98    X   89   70   90   70   1108
+6         getGreedyMoveFunction(10)  104  107  104  118  120    X  104   99   88   79   89   79   1091
+1      getBestAlgorithmCascadeMove2    X  102  101  105  115   96   91   90   64   62   65   62    953
+3      getBestAlgorithmCascadeMove3   99  107    X  105  116   96   82   86   54   55   58   55    913
+2       getBestAlgorithmCascadeMove   98    X   93  102  114   93   76   83   55   57   56   57    884
+4      getBestAlgorithmCascadeMove4   95   98   95    X  107   82   77   75   54   55   56   55    849
+5      getBestAlgorithmCascadeMove5   85   86   84   93    X   80   75   76   53   55   55   55    797
+
+=======================================================================
+
+                                           1        2        3        4        5        6        7        8        9       10       11       12     total
+1      getBestAlgorithmCascadeMove2        X  49269.0  49352.0  48949.0  49198.0  50792.0  50332.0  50463.0  49505.0  49672.0  49670.0  49672.0  546874.0
+2       getBestAlgorithmCascadeMove  48375.0        X  48412.0  48222.0  48510.0  49481.0  49001.0  49051.0  48484.0  48898.0  48547.0  48898.0  535879.0
+3      getBestAlgorithmCascadeMove3  49515.0  49542.0        X  49544.0  49664.0  50677.0  49866.0  50012.0  49148.0  49611.0  49314.0  49611.0  546504.0
+4      getBestAlgorithmCascadeMove4  48688.0  48717.0  49160.0        X  48948.0  49713.0  49335.0  49327.0  49049.0  49663.0  49125.0  49663.0  541388.0
+5      getBestAlgorithmCascadeMove5  48452.0  48430.0  48654.0  48425.0        X  49535.0  49342.0  49373.0  49205.0  49418.0  49355.0  49418.0  539607.0
+6         getGreedyMoveFunction(10)  51327.0  51114.0  51367.0  51661.0  51678.0        X  51447.0  51988.0  51226.0  51145.0  51163.0  51145.0  565261.0
+7          getGreedyMoveFunction(8)  52556.0  52727.0  52487.0  52450.0  52716.0  52389.0        X  52639.0  52976.0  52843.0  53135.0  52843.0  579761.0
+8          getGreedyMoveFunction(9)  51614.0  51653.0  51661.0  52179.0  52396.0  51709.0  52505.0        X  51806.0  51338.0  51840.0  51338.0  570039.0
+9          getGreedyMoveFunction(7)  54149.0  54496.0  54196.0  54057.0  54129.0  54035.0  54733.0  53908.0        X  54737.0  54922.0  54737.0  598099.0
+10         getGreedyMoveFunction(6)  55025.0  55431.0  54810.0  54698.0  54429.0  54497.0  54916.0  54453.0  55130.0        X  55195.0  55186.0  603770.0
+11  getGreedyCorrectMoveFunction(7)  54010.0  54342.0  54077.0  53803.0  54035.0  53873.0  54584.0  53847.0  54655.0  54505.0        X  54505.0  596236.0
+12  getGreedyCorrectMoveFunction(6)  55025.0  55431.0  54810.0  54698.0  54429.0  54497.0  54916.0  54453.0  55130.0  55186.0  55195.0        X  603770.0
+-----------------------------------------------------------------------
+                                           1        2        3        4        5        6        7        8        9       10       11       12     total
+10         getGreedyMoveFunction(6)  55025.0  55431.0  54810.0  54698.0  54429.0  54497.0  54916.0  54453.0  55130.0        X  55195.0  55186.0  603770.0
+12  getGreedyCorrectMoveFunction(6)  55025.0  55431.0  54810.0  54698.0  54429.0  54497.0  54916.0  54453.0  55130.0  55186.0  55195.0        X  603770.0
+9          getGreedyMoveFunction(7)  54149.0  54496.0  54196.0  54057.0  54129.0  54035.0  54733.0  53908.0        X  54737.0  54922.0  54737.0  598099.0
+11  getGreedyCorrectMoveFunction(7)  54010.0  54342.0  54077.0  53803.0  54035.0  53873.0  54584.0  53847.0  54655.0  54505.0        X  54505.0  596236.0
+7          getGreedyMoveFunction(8)  52556.0  52727.0  52487.0  52450.0  52716.0  52389.0        X  52639.0  52976.0  52843.0  53135.0  52843.0  579761.0
+8          getGreedyMoveFunction(9)  51614.0  51653.0  51661.0  52179.0  52396.0  51709.0  52505.0        X  51806.0  51338.0  51840.0  51338.0  570039.0
+6         getGreedyMoveFunction(10)  51327.0  51114.0  51367.0  51661.0  51678.0        X  51447.0  51988.0  51226.0  51145.0  51163.0  51145.0  565261.0
+1      getBestAlgorithmCascadeMove2        X  49269.0  49352.0  48949.0  49198.0  50792.0  50332.0  50463.0  49505.0  49672.0  49670.0  49672.0  546874.0
+3      getBestAlgorithmCascadeMove3  49515.0  49542.0        X  49544.0  49664.0  50677.0  49866.0  50012.0  49148.0  49611.0  49314.0  49611.0  546504.0
+4      getBestAlgorithmCascadeMove4  48688.0  48717.0  49160.0        X  48948.0  49713.0  49335.0  49327.0  49049.0  49663.0  49125.0  49663.0  541388.0
+5      getBestAlgorithmCascadeMove5  48452.0  48430.0  48654.0  48425.0        X  49535.0  49342.0  49373.0  49205.0  49418.0  49355.0  49418.0  539607.0
+2       getBestAlgorithmCascadeMove  48375.0        X  48412.0  48222.0  48510.0  49481.0  49001.0  49051.0  48484.0  48898.0  48547.0  48898.0  535879.0

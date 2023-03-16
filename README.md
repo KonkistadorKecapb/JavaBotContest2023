@@ -1,3 +1,3 @@
 # JavaBotContest2023
-Descripiton:  
+Description:  
 https://github.com/nekromant322/LabyrinthChallenge
